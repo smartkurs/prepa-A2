@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1252">
+<META name="Author" content="Conçu par Deutsch pour tous et tous pour Deutsch avec Smarttest">
+<META name="generator" content="Smarttest 3.1.2">
+<META name="keywords" content="Deutsch pour tous et tous pour Deutsch">
+<META name="description" content="horen deutsch pour tous et tous pour deutsch">
+<TITLE>Deutsch pour tous et tous pour Deutsch</TITLE>
+<LINK href="css/horen.css" rel="stylesheet" type="text/css">
+<link href="css/base.css" rel="stylesheet"/>
+<SCRIPT LANGUAGE='JavaScript' SRC='./horen.js'></SCRIPT>
+<link href="css/modalDlg.css" rel="stylesheet"/>
+
+<script language="javascript" type="text/javascript">
+ document.addEventListener("contextmenu", function(e){ e.preventDefault();}, false);
+
+function startQuiz() {
+  var status;
+
+  Constructor();
+  window.focus();
+  UnmanageAllDialogs();
+  init_valid();
+  AskMeName();
+  startFloatLayer();
+  oldtime=StartTime();
+  Timer();
+  if (GetNRepeat()==0) initShortQuestion();
+  end_test=0;
+}
+
+function ManageLoadPage()
+{
+startQuiz();
+}
+</script>
+</HEAD>
+<BODY OnLoad="ManageLoadPage()" >
+<div style="width:100%; margin:0 auto;">
+<script language="javascript" type="text/javascript">
+  keyword = "sWOfeTyw+mh#";
+</script>
+  <form class="hidden_style"><input type="hidden" id="hidden_url" value="css/horen.css"></form>
+<CENTER>
+<SPAN class='quiz_title_class'>Hören A2 deutsch pour tous et tous pour deutsch</SPAN><BR>
+<SPAN class='quiz_profile_class'>HÖREN</SPAN><BR>
+<BR>
+<SPAN class='quiz_profile_class'>Deutsch pour tous et tous pour Deutsch</SPAN><BR>
+<SPAN class='quiz_profile_class'>2021</SPAN><BR>
+</CENTER>
+<HR class='horizontal-bar'>
+<P><span style="color:#231F20;background-color:#FFFFFF;font-family:GoetheTitel-Regular;font-size:24pt;">H&#246;ren</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:GoetheTitel-Regular;font-size:12pt;">circa 20 Minuten</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Dieser Test hat drei Teile.</span></p>    <p><span style="color:#231F20;font-family:GoetheTitel-Regular;font-size:12pt;">Lesen </span><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie zuerst die Aufgaben,</span></p>    <p><span style="color:#231F20;font-family:GoetheTitel-Regular;font-size:12pt;">h&#246;ren </span><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie dann den Text dazu.</span></P>
+<HR class='horizontal-bar'>
+<FORM NAME='domanda'>
+
+<TABLE id='FloatingStatusbarPanel' width='95%' style='position:absolute; left:100px; top:-100px; z-index:2;'>
+<TR>
+<TD ALIGN='right' ID='clock' CLASS='floating_statusbar_class'>00:20:00</TD>
+<TD ALIGN='center' CLASS='floating_statusbar_class'>
+répondre :<SPAN ID='nToDo'>7</SPAN>
+</TD></TR></TABLE>
+
+<div id='retire_btn_div'><img alt='Sortir' title='Sortir' id='retire_btn_img' src='media/btn-close-x.png' OnClick='Retire()'></div>
+<script language="javascript" type="text/javascript">
+function initValuate1()
+{
+ this.length = 5;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap001000.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("tLeXJYHsIIs="));
+ data = unescape("<span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>1 Telefonauskunft</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Vorwahl: 069</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Rufnummer");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001001.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("wrVRB+9Lffs="));
+ valuation[1] = unescape(DecodeString("44PKjrmljMt69j0A"));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>2 Dimitri zur&#252;ckrufen</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Treffen - wann?</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>nicht");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001002.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("aaB5CLcAqsw="));
+ valuation[1] = unescape(DecodeString("y9Luy9D8DwG5k2Ke"));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>3 Sascha</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Treffpunkt mit Sascha</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Wo?");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001003.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("aHVmFSk1mQU="));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>4 Frankfurt &gt; K&#246;ln</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Abfahrt: 11.45 Uhr</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Preis");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap001004.value;
+ valuation = new init_array(1);
+ valuation.length = 1;
+ valuation[0] = unescape(DecodeString("9M3wffE8bRmKo/btypVc58YlYuw="));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>5 Firma Keller</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Arbeit - wann?</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>Dienstagvormittag</span></p>    <p><span style=%22color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;%22>+");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ pesi[0]=DecodeNumber('wJ0bCm+XY9k=',160,0,99999);
+
+}
+
+</script>
+<P><b><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:12pt;">Teil 1</span></b></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie h&#246;ren f&#252;nf Ansagen am Telefon.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Zu jedem Text gibt es eine Aufgabe.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Erg&#228;nzen Sie die Telefonnotizen.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie h&#246;ren jeden Text </span><span style="color:#231F20;font-family:GoetheTitel-Regular;font-size:12pt;">zweimal.</span></P>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check0' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor0'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 1  </DIV>
+
+<DIV ID='hideAns0' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt0'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">
+<audio controls><source src="media/teil 1.mp3" type="audio/mpeg" /><EMBED SRC="media/teil 1.mp3" ALIGN="" style = "clear:none" VOLUME="50" AUTOSTART="FALSE" LOOP="FALSE" ></EMBED></audio>
+</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">Beispiel</span></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:GoetheTitel-Regular;font-size:12pt;">Werkstatt</span></p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:GoetheText-Regular;font-size:12pt;">Auto fertig</span></p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:GoetheText-Regular;font-size:12pt;">Zeit: ab 8</span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:12pt;">.30 Uhr</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">1 Telefonauskunft</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Vorwahl: 069</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Rufnummer <INPUT TYPE='text' NAME='gap001000' SIZE=8 STYLE='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">2 Dimitri zur&#252;ckrufen</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Treffen - wann?</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">nicht <INPUT TYPE='text' NAME='gap001001' SIZE=12 STYLE='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">3 Sascha</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Treffpunkt mit Sascha</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Wo? <INPUT TYPE='text' NAME='gap001002' SIZE=11 STYLE='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">4 Frankfurt &gt; K&#246;ln</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Abfahrt: 11.45 Uhr</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Preis <INPUT TYPE='text' NAME='gap001003' SIZE=8 STYLE='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">5 Firma Keller</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Arbeit - wann?</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Dienstagvormittag</span></p>    <p><span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">+ <INPUT TYPE='text' NAME='gap001004' SIZE=20 STYLE='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;' class='quiz_answer_class'> </span></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate2()
+{
+ this.length = 3;
+ var choice,valuation,remark,data,answer;
+ if (document.domanda.radio002000.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;'>Das Mittagsprogramm.</span>";
+ remark = "";
+ valuation = DecodeNumber('Z51oR3MAPFc=',183,-1,1);
+ this[0] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio002001.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Eine Sendung f&#252;r Kinder.</span>";
+ remark = "";
+ valuation = DecodeNumber('etpMaMArX30=',196,-1,1);
+ this[1] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio002002.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Nachrichten.</span>";
+ remark = "";
+ valuation = DecodeNumber('tPp5gkz0sso=',209,-1,1);
+ this[2] = new AnsReport(choice,valuation,remark,0,answer);
+ pesi[1]=DecodeNumber('9NrAwgk9LMQ=',214,0,99999);
+
+}
+
+</script>
+<P><span style="background-color:#FFFFFF;font-family:GoetheTitel-Regular;font-size:18pt;">Teil 2</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie h&#246;ren f&#252;nf Informationen aus dem Radio.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Zu jedem Text gibt es eine Aufgabe.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Kreuzen Sie an: , oder .</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie h&#246;ren jeden Text </span><span style="color:#231F20;font-family:GoetheTitel-Regular;font-size:12pt;">einmal.</span></P>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check1' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor1'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 2  </DIV>
+
+<DIV ID='hideAns1' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt1'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">
+<audio controls><source src="media/teil 2.mp3" type="audio/mpeg" /><EMBED SRC="media/teil 2.mp3" ALIGN="" style = "clear:none" VOLUME="50" AUTOSTART="FALSE" LOOP="FALSE" ></EMBED></audio>
+</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">Beispiel</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">Wie sp&#228;t ist es gleich?</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:GoetheText-Regular;font-size:12pt;">a </span><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Acht Uhr am Abend.</span></p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:GoetheText-Regular;font-size:12pt;">b Sechs Uhr am Abend.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:GoetheText-Regular;font-size:12pt;">c </span><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Acht Uhr zehn am Abend.</span></p>    <p>&nbsp;</p>    <p><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:17pt;">6 Was kommt nachmittags</span></p>    <p><span style="background-color:#FFFFFF;font-family:Times New Roman;font-size:17pt;">um drei Uhr?</span></p>    <p></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> A </SPAN><INPUT TYPE='radio' NAME='radio002000'  OnClick=" document.domanda.radio002001.checked=0; document.domanda.radio002002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">Das Mittagsprogramm.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> B </SPAN><INPUT TYPE='radio' NAME='radio002001'  OnClick=" document.domanda.radio002000.checked=0; document.domanda.radio002002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Eine Sendung f&#252;r Kinder.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> C </SPAN><INPUT TYPE='radio' NAME='radio002002'  OnClick=" document.domanda.radio002000.checked=0; document.domanda.radio002001.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Nachrichten.</span></TD>
+</TR>
+</TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate3()
+{
+ this.length = 3;
+ var choice,valuation,remark,data,answer;
+ if (document.domanda.radio003000.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Es gibt ein Gewitter.</span>";
+ remark = "";
+ valuation = DecodeNumber('AOUPUpwYBVE=',237,-1,1);
+ this[0] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio003001.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Es gibt Regen.</span>";
+ remark = "";
+ valuation = DecodeNumber('6XPBgp7m7C8=',250,-1,1);
+ this[1] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio003002.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Warm.</span>";
+ remark = "";
+ valuation = DecodeNumber('8xv0cPsGu8M=',263,-1,1);
+ this[2] = new AnsReport(choice,valuation,remark,0,answer);
+ pesi[2]=DecodeNumber('/7rv7VKgSdc=',268,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check2' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor2'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 3  </DIV>
+
+<DIV ID='hideAns2' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt2'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">7 Wie wird das Wetter morgen?</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> A </SPAN><INPUT TYPE='radio' NAME='radio003000'  OnClick=" document.domanda.radio003001.checked=0; document.domanda.radio003002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Es gibt ein Gewitter.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> B </SPAN><INPUT TYPE='radio' NAME='radio003001'  OnClick=" document.domanda.radio003000.checked=0; document.domanda.radio003002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Es gibt Regen.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> C </SPAN><INPUT TYPE='radio' NAME='radio003002'  OnClick=" document.domanda.radio003000.checked=0; document.domanda.radio003001.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Warm.</span></TD>
+</TR>
+</TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate4()
+{
+ this.length = 3;
+ var choice,valuation,remark,data,answer;
+ if (document.domanda.radio004000.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Ein Autofahrer.</span>";
+ remark = "";
+ valuation = DecodeNumber('0Jm3N5MNTzE=',291,-1,1);
+ this[0] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio004001.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Ein Kind.</span>";
+ remark = "";
+ valuation = DecodeNumber('uhv4d3eFpAY=',304,-1,1);
+ this[1] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio004002.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Ein Tier.</span>";
+ remark = "";
+ valuation = DecodeNumber('l/kG/sYEVJg=',317,-1,1);
+ this[2] = new AnsReport(choice,valuation,remark,0,answer);
+ pesi[3]=DecodeNumber('ZXKjjvlNVRs=',322,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check3' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor3'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 4  </DIV>
+
+<DIV ID='hideAns3' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt3'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">8 Wer oder was l&#228;uft auf der</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">Stra&#223;e?</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> A </SPAN><INPUT TYPE='radio' NAME='radio004000'  OnClick=" document.domanda.radio004001.checked=0; document.domanda.radio004002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Ein Autofahrer.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> B </SPAN><INPUT TYPE='radio' NAME='radio004001'  OnClick=" document.domanda.radio004000.checked=0; document.domanda.radio004002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Ein Kind.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> C </SPAN><INPUT TYPE='radio' NAME='radio004002'  OnClick=" document.domanda.radio004000.checked=0; document.domanda.radio004001.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Ein Tier.</span></TD>
+</TR>
+</TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate5()
+{
+ this.length = 3;
+ var choice,valuation,remark,data,answer;
+ if (document.domanda.radio005000.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Josef, ein junger Mann.</span>";
+ remark = "";
+ valuation = DecodeNumber('/dclAntiIuc=',345,-1,1);
+ this[0] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio005001.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Josefs Kollege aus dem Radio.</span>";
+ remark = "";
+ valuation = DecodeNumber('YAMzwtG4QsQ=',359,-1,1);
+ this[1] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio005002.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Josefs Familie.</span>";
+ remark = "";
+ valuation = DecodeNumber('KBxS6L1MRKA=',372,-1,1);
+ this[2] = new AnsReport(choice,valuation,remark,0,answer);
+ pesi[4]=DecodeNumber('8UQvreTVJsk=',377,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check4' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor4'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 5  </DIV>
+
+<DIV ID='hideAns4' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt4'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">9 Wer gratuliert zum</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">Geburtstag?</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> A </SPAN><INPUT TYPE='radio' NAME='radio005000'  OnClick=" document.domanda.radio005001.checked=0; document.domanda.radio005002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Josef, ein junger Mann.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> B </SPAN><INPUT TYPE='radio' NAME='radio005001'  OnClick=" document.domanda.radio005000.checked=0; document.domanda.radio005002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Josefs Kollege aus dem Radio.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> C </SPAN><INPUT TYPE='radio' NAME='radio005002'  OnClick=" document.domanda.radio005000.checked=0; document.domanda.radio005001.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Josefs Familie.</span></TD>
+</TR>
+</TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate6()
+{
+ this.length = 3;
+ var choice,valuation,remark,data,answer;
+ if (document.domanda.radio006000.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Eine Reise.</span>";
+ remark = "";
+ valuation = DecodeNumber('7T48v8vh3RI=',400,-1,1);
+ this[0] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio006001.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Ein Spiel.</span>";
+ remark = "";
+ valuation = DecodeNumber('ANH1SNcdehQ=',413,-1,1);
+ this[1] = new AnsReport(choice,valuation,remark,0,answer);
+ if (document.domanda.radio006002.checked==true) choice=1; else choice=0;
+ answer = "<span style='color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;'>Ein Buch.</span>";
+ remark = "";
+ valuation = DecodeNumber('Tp0ZplW9Jcg=',426,-1,1);
+ this[2] = new AnsReport(choice,valuation,remark,0,answer);
+ pesi[5]=DecodeNumber('vNgxgNVL7Ls=',431,0,99999);
+
+}
+
+</script>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check5' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor5'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 6  </DIV>
+
+<DIV ID='hideAns5' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt5'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:17pt;">10 Was kann man gewinnen?</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> A </SPAN><INPUT TYPE='radio' NAME='radio006000'  OnClick=" document.domanda.radio006001.checked=0; document.domanda.radio006002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Eine Reise.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> B </SPAN><INPUT TYPE='radio' NAME='radio006001'  OnClick=" document.domanda.radio006000.checked=0; document.domanda.radio006002.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Ein Spiel.</span></TD>
+</TR>
+<TR>
+<TD ALIGN='CENTER' class="quiz_letter_class"  WIDTH='50'>
+<SPAN class='quiz_letter_class'> C </SPAN><INPUT TYPE='radio' NAME='radio006002'  OnClick=" document.domanda.radio006000.checked=0; document.domanda.radio006001.checked=0;" ></TD>
+<TD ALIGN='LEFT' class="quiz_answer_class">
+<span style="color:#231F20;background-color:#87CEFA;font-family:Microsoft Sans Serif;font-size:15pt;">Ein Buch.</span></TD>
+</TR>
+</TABLE>
+<HR class='horizontal-bar'>
+<script language="javascript" type="text/javascript">
+function initValuate7()
+{
+ this.length = 5;
+ var choice,valuation,data,remark;
+ choice = document.domanda.gap007000.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("ibGg+R+TFgU="));
+ valuation[1] = unescape(DecodeString("BncUXHlc7RgdR/lfRlpSIV00EgfS9PPz3rtQQw=="));
+ data = unescape("<span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>11 Leiterin Export");
+ this[0] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap007001.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("cmx2WmO3v6c="));
+ valuation[1] = unescape(DecodeString("OYnTW2iG2mg/dBPa"));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>12 Sohn vom Chef");
+ this[1] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap007002.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("J4CCnl7IiiQ="));
+ valuation[1] = unescape(DecodeString("aP16wp3NAZ6akQE16ONCGfEdBMs="));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>13 Hausarbeiter");
+ this[2] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap007003.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("XzFxKcZJ0YE="));
+ valuation[1] = unescape(DecodeString("OtEqWY1jeaGGYZ8s"));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>14 Praktikantin");
+ this[3] = new AnsReport(choice,valuation,data,0);
+ choice = document.domanda.gap007004.value;
+ valuation = new init_array(2);
+ valuation.length = 2;
+ valuation[0] = unescape(DecodeString("bVVRcA5prfM="));
+ valuation[1] = unescape(DecodeString("AeP0e4TKG+dUCyQvw6syUQ1xM/k="));
+ data = unescape("</span></p>    <p>&nbsp;</p>    <p><span style=%22background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;%22>15 Sekret&#228;rin");
+ this[4] = new AnsReport(choice,valuation,data,0);
+ pesi[6]=DecodeNumber('wdnDaPeyGi0=',452,0,99999);
+
+}
+
+</script>
+<P><span style="background-color:#FFFFFF;font-family:GoetheTitel-Regular;font-size:18pt;">Teil 3</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie h&#246;ren ein Gespr&#228;ch.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Zu diesem Gespr&#228;ch gibt es f&#252;nf Aufgaben.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Ordnen Sie zu und notieren Sie den Buchstaben.</span></p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Sie h&#246;ren den Text </span><span style="color:#231F20;font-family:GoetheTitel-Regular;font-size:12pt;">zweimal.</span></P>
+<IMG SRC="media/check.png" CLASS='checkHide' ID='check6' ALIGN='LEFT' HSPACE='5'>
+<A NAME='qstAnchor6'>
+</A>
+<DIV class='quiz_quest_header_class'> Question 7  </DIV>
+
+<DIV ID='hideAns6' CLASS='cardHide'>
+<TABLE class="qst_feedback_table_class"><TR class="qst_feedback_TH_class"><TD CLASS="qst_feedback_TD_class">
+<SPAN ID='hideTxt6'></SPAN>
+</TD></TR></TABLE>
+</DIV>
+<BR />
+<TABLE WIDTH="100%">
+<TR><TD class="quiz_quest_class">
+<span style="background-color:#FFFFFF;font-family:GoetheTitel-Regular;font-size:18pt;">Beispiel</span></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;font-family:GoetheText-Regular;font-size:12pt;">Wo findet man diese Personen?</span></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:GoetheText-Regular;font-size:12pt;">Person Chef</span></p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:GoetheText-Regular;font-size:12pt;">L&#246;sung</span><span style="color:#231F20;background-color:#FF0000;font-family:GoetheText-Regular;font-size:12pt;"> a  </span></p>    <p>&nbsp;</p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> a  </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Im ersten Stock.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">                             </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> b </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Gegen&#252;ber dem Chefb&#252;ro.</span></p>    <p><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> c </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Am Empfang.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">                             </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> d  </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Neben der Teek&#252;che.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;"> </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;">e  </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Im Kopierraum.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">                             </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> f  </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">In der Werkstatt.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;"> </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;">g </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">&#220;ber dem Computerraum.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">                            </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> h  </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Im Keller.</span></p>    <p><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;"> </span><span style="color:#231F20;background-color:#80FF00;font-family:Microsoft Sans Serif;font-size:15pt;"> i </span><span style="color:#231F20;background-color:#FFFFFF;font-family:Microsoft Sans Serif;font-size:15pt;">Im Schreibb&#252;ro.</span></TD></TR></TABLE>
+<BR />
+<TABLE WIDTH='100%'>
+<TR><TD ALIGN='LEFT' class='quiz_answer_class' style='padding:5px'>
+<span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">11 Leiterin Export <INPUT TYPE='text' NAME='gap007000' SIZE=23 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">12 Sohn vom Chef <INPUT TYPE='text' NAME='gap007001' SIZE=11 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">13 Hausarbeiter <INPUT TYPE='text' NAME='gap007002' SIZE=17 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">14 Praktikantin <INPUT TYPE='text' NAME='gap007003' SIZE=10 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> </span></p>    <p>&nbsp;</p>    <p><span style="background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;">15 Sekret&#228;rin <INPUT TYPE='text' NAME='gap007004' SIZE=15 STYLE='background-color:#87CEFA;font-family:Times New Roman;font-size:15pt;' class='quiz_answer_class'> </span></TD></TR></TABLE>
+<HR class='horizontal-bar'>
+<BR><BR>
+<SPAN id='verifyButtonId' class='okButtonClass'><TABLE WIDTH='100%' class='quiz_table_verify'>
+<TR><TD class='quiz_table_verify_TD'><SPAN class='quiz_remark_class'>sehr gut, jetzt prüfen Sie Ihre Antworten</SPAN></TD>
+<TD class='quiz_table_verify_TD'>
+<INPUT TYPE='button' VALUE='Klicken Sie hier, um Ihre Antworten zu bestätigen' onClick="parent.end_test=1;parent.EndQuiz()" class="quiz_verify_box_class"></TD></TR></TABLE></SPAN>
+<HR class='horizontal-bar'>
+<BR /><BR />
+</FORM>
+</DIV>
+</BODY>
+</HTML>

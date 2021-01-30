@@ -1,0 +1,57 @@
+1/30/2021 9:30:50 AM | 
+1/30/2021 9:30:50 AM | 
+Message : L'index se trouve en dehors des limites du tableau.
+1/30/2021 9:30:50 AM | 
+LastTrace : openElement.Serialization.DeserializeFromByteArray(Byte[] byteArray, SerializationBinder binder, Boolean forceTryDecompress, Boolean retryOnException)
+1/30/2021 9:30:50 AM | 
+Params : 
+1/30/2021 9:30:50 AM | 
+MethodeName : System.Object DeserializeFromByteArray(Byte[], System.Runtime.Serialization.SerializationBinder, Boolean, Boolean)
+1/30/2021 9:30:50 AM | 
+Stamp : 1/30/2021 9:30:49 AM
+1/30/2021 9:30:50 AM | 
+OSFullName : Microsoft Windows 10 Pro
+1/30/2021 9:30:50 AM | 
+AvailablePhysicalMemory : 3.51 Go 
+1/30/2021 9:30:50 AM | 
+TotalPhysicalMemory : 7.89 Go 
+1/30/2021 9:30:50 AM | 
+AvailableVirtualMemory : 3.07 Go 
+1/30/2021 9:30:50 AM | 
+TotalVirtualMemory : 4 Go 
+1/30/2021 9:30:50 AM | 
+WorkingSet : 288.61 Mo 
+1/30/2021 9:30:50 AM | 
+PagedMemorySize : 228.67 Mo 
+1/30/2021 9:30:50 AM | 
+TotalMemory : 30.08 Mo 
+1/30/2021 9:30:50 AM | 
+
+1/30/2021 9:30:50 AM | 
+ExTrace : 
+1/30/2021 9:30:50 AM | 
+à openElement.Serialization.DeserializeFromByteArray(Byte[] byteArray, SerializationBinder binder, Boolean forceTryDecompress, Boolean retryOnException) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:ligne 370
+1/30/2021 9:30:50 AM | 
+à openElement.Serialization.InternalDeserializeFile(String filePath, EnuFileType typeFile) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:ligne 284
+1/30/2021 9:30:50 AM | 
+à openElement.Serialization.DeserializeFile(String filePath, EnuFileType typeFile, LinksPage linksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:ligne 183
+1/30/2021 9:30:50 AM | 
+
+1/30/2021 9:30:50 AM | 
+OETrace : 
+1/30/2021 9:30:50 AM | 
+à openElement.Serialization.DeserializeFile(String filePath, EnuFileType typeFile, LinksPage linksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:ligne 221
+1/30/2021 9:30:50 AM | 
+à openElement.CtlStylesSkins.OpenSkinModel(TagDataSkin tagDataSkin) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStylesSkins.vb:ligne 810
+1/30/2021 9:30:50 AM | 
+à openElement.CtlStylesSkins.LinkClicked(NavBarItemLink link) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStylesSkins.vb:ligne 1037
+1/30/2021 9:30:50 AM | 
+à openElement.CtlStylesSkins.NavBarControl_Click(Object sender, MouseEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStylesSkins.vb:ligne 1069
+1/30/2021 9:30:50 AM | 
+à openElement.CtlStylesSkins._Lambda$__R18-1(Object a0, EventArgs a1)
+1/30/2021 9:30:50 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans :ligne 82
+1/30/2021 9:30:50 AM | 
+
+1/30/2021 9:30:50 AM | 
+------------------
